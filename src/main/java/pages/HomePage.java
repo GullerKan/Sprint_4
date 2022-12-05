@@ -29,7 +29,7 @@ public class HomePage {
         driver.findElement(buttonCookies).click();
     }
 
-    public void clicklogoYandex() {
+    public void clickLogoYandex() {
         driver.findElement(logoYandex).click();
     }
 

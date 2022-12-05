@@ -49,7 +49,7 @@ public class AboutRent {
 
     public void setComment(String comment) {
         driver.findElement(commentField).clear();
-        driver.findElement(commentField).sendKeys(new CharSequence[]{comment});
+        driver.findElement(commentField).sendKeys(comment);
     }
 
     public void clickButtonBack() {
